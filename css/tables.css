@@ -1,0 +1,62 @@
+/*===================*/
+/* TABLE SETUP BELOW */
+/*===================*/
+
+.table-division {
+    padding: 0px;
+}
+
+table {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    border-radius: 5px;
+}
+
+th {
+    padding: 10px;
+    background-color: #eff0f1;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid #eff0f1;
+}
+
+td:hover {
+    background-color: #cbe3f0;
+}
+
+.danger-cell {
+    background-color: #ffa4a2;
+    font-weight: bold;
+}
+
+.warning-cell {
+    background-color: #ffff81;
+    font-weight: bold;
+}
+
+.success-cell {
+    background-color: #b2fab4;
+    font-weight: bold;
+}
+
+.important-cell {
+    background-color: #aab6fe;
+    font-weight: bold;
+}
+
+table caption {
+    padding: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #3daee9;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(#556068, #475057);
+}
+
+/*====================================================*/
