@@ -52,7 +52,7 @@ td:hover {
 table caption {
     padding: 10px;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
-    border-bottom: 1px solid #3daee9;
+    border-bottom: 2px solid #3daee9;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
