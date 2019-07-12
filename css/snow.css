@@ -152,19 +152,33 @@ header {
 .blog-list {
     display: flex;
     flex-direction: column-reverse;
-    flex-wrap: wrap;
-    list-style: upper-roman;
-    list-style-position: outside;
+    list-style: lower-roman;
     padding: 0px;
     margin-left: 200px;
     margin-right: 200px;
 }
 
 .blog-item {
+    color: #000000;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.blog-item h2 a {
+    display: block;
     flex: auto;
+    text-decoration: none;
+    color: #000000;
+}
+
+.blog-item h2 a:hover {
+    color: #ffffff;
+    background: #000000;
+    display: inline;
+    text-decoration: none;
 }
 
 .blog-item h2 {
+    display: block;
     font-family: 'IBM Plex Serif', serif;
     font-size: 150%;
     font-weight: bold;
@@ -204,8 +218,26 @@ section article p {
     text-align: left;
 }
 
-.highlighter {
+.highlighted {
     color: #000000;
-    background: #ffff00;
+    background: #ffff81;
+    border: 0px;
+}
+
+.important {
+    color: #000000;
+    background: #aab6fe;
+    border: 0px;
+}
+
+.successful {
+    color: #000000;
+    background: #b2fab4;
+    border: 0px;
+}
+
+.danger {
+    color: #000000;
+    background: #ffa4a2;
     border: 0px;
 }
