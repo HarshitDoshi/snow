@@ -13,13 +13,12 @@
 }
 
 .home img {
-
     width: 150px;
     height: 150px;
 }
 
 .home a {
-    color: #000000;
+    color: #333333;
     text-decoration: none;
 }
 
@@ -44,7 +43,7 @@
 }
 
 .home-list {
-    color: #000000;
+    color: #333333;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 250%;
     font-weight: 100;
@@ -112,7 +111,7 @@ header {
 
 .blog-tabs li {
     display: flex;
-    color: #000000;
+    color: #333333;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 150%;
     font-weight: 100;
@@ -136,7 +135,7 @@ header {
 }
 
 .navbar-items a {
-    color: #000000;
+    color: #333333;
     padding-left: 5px;
     padding-right: 5px;
     text-decoration: none;
