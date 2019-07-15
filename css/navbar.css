@@ -1,0 +1,98 @@
+header {
+    background: #ffffff;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000000;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar-logo {
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar-brand {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #000000;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.navbar-tabs {
+    display: flex;
+    list-style: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-tabs li {
+    display: flex;
+    color: #333333;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 150%;
+    font-weight: 100;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-tabs li:hover {
+    display: flex;
+    color: #ffffff;
+    background: #000000;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 150%;
+    font-weight: 100;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-items a {
+    color: #333333;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.navbar-items a:hover {
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+}

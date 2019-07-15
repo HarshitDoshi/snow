@@ -1,0 +1,57 @@
+.post-page {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.post {
+    margin-left: 200px;
+    margin-right: 200px;
+    flex: 600px;
+}
+
+.post-title {
+    font-size: 200%;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+}
+
+.post-image {
+    display: block;
+    max-width: 100%;
+    max-height: 50%;
+    margin: auto;
+    border: 2px solid #000000;
+    image-rendering: auto;
+}
+
+.post-content {
+    font-size: 130%;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: left;
+}
+
+.highlighted {
+    color: #000000;
+    background: #ffff81;
+    border: 0px;
+}
+
+.important {
+    color: #000000;
+    background: #aab6fe;
+    border: 0px;
+}
+
+.successful {
+    color: #000000;
+    background: #b2fab4;
+    border: 0px;
+}
+
+.danger {
+    color: #000000;
+    background: #ffa4a2;
+    border: 0px;
+}

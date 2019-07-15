@@ -1,0 +1,34 @@
+.blog-list {
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: lower-roman;
+    padding: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.blog-item {
+    color: #000000;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.blog-item h2 a {
+    display: block;
+    flex: auto;
+    text-decoration: none;
+    color: #000000;
+}
+
+.blog-item h2 a:hover {
+    color: #ffffff;
+    background: #000000;
+    display: inline;
+    text-decoration: none;
+}
+
+.blog-item h2 {
+    display: block;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 150%;
+    font-weight: bold;
+}
