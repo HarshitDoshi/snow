@@ -241,14 +241,22 @@ section article p {
     border: 0px;
 }
 
-.gallery-item {
+.gallery {
     display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 0px;
+    flex-wrap: wrap-reverse;
+}
+
+.gallery-item {
+    display: inline-block;
     flex-direction: column;
     flex: 30%;
     flex-wrap: wrap;
     border: 1px solid #000000;
     padding: 5px;
-    margin: 5px;
+    margin: 0px;
     align-content: center;
 }
 
@@ -258,12 +266,13 @@ section article p {
     max-height: 150;
     padding: 0px;
     margin: 0px;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
 }
 
 .gallery-item h3 {
     display: block;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'IBM Plex Serif', serif;
-    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
 }
