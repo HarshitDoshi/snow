@@ -1,26 +1,28 @@
+@import 'snow.css';
+
 .home {
-    display: block;
+    display: grid;
     list-style: none;
     text-align: center;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    align-items: center;
-    justify-content: center;
 }
 
-.home img {
-    width: 150px;
-    height: 150px;
+.home-logo img {
+    width: 15%;
 }
 
-.home a {
-    color: #333333;
+.home-list a {
+    color: #707070;
     text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 250%;
+    font-weight: 100;
 }
 
-.home a:hover {
+.home-list a:hover {
     color: #ffffff;
     background: #000000;
     text-decoration: none;
@@ -29,20 +31,6 @@
 .home-brand {
     color: #000000;
     font-family: 'IBM Plex Serif', serif;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 400%;
-}
-
-.home-brand:hover {
-    color: #000000;
-    font-family: 'IBM Plex Serif', serif;
-    font-weight: bolder;
-    font-size: 400%;
-}
-
-.home-list {
-    color: #333333;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 250%;
-    font-weight: 100;
 }

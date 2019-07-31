@@ -1,24 +1,26 @@
+@import 'snow.css';
+@import 'navbar.css';
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 0px;
 }
 
 .gallery-item {
     display: grid;
     grid-template-rows: 4fr 1fr;
-    border: 1px solid #000000;
-    padding: 0px;
-    margin: 0px;
-    align-content: center;
+    gap: 2px;
+    margin: 5px;
 }
 
 .gallery-image {
-    max-width: 100%;
-    max-height: 50%;
+    width: 300px;
+    height: 150px;
     padding: 0px;
     margin: 0px;
     border: 2px solid #000000;
+    gap: 2px;
 }
 
 .gallery-item h3 {
@@ -26,4 +28,5 @@
     font-family: 'IBM Plex Serif', serif;
     padding: 0px;
     margin: 0px;
+    gap: 2px;
 }

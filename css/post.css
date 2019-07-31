@@ -1,3 +1,6 @@
+@import 'snow.css';
+@import 'navbar.css';
+
 .post-page {
     display: flex;
     padding: 10px;

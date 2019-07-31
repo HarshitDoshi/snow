@@ -1,3 +1,6 @@
+@import 'snow.css';
+@import 'navbar.css';
+
 .blog-list {
     display: flex;
     flex-direction: column-reverse;
