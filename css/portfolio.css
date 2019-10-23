@@ -8,27 +8,76 @@
 }
 
 .portfolio-item {
-    display: grid;
-    gap: 0px;
     padding: 0px;
     margin: 10px;
     position: relative;
-    width: 90%;
+    width: 94%;
     border: 2px solid #000000;
-}
-
-.project-info {
     opacity: 1;
-    background-color: #ffffff;
-    color: #000000;
-    position: relative;
     text-align: left;
+    font-family: 'IBM Plex Serif', serif;
 }
 
-.portfolio-item h3 {
+.portfolio-item caption {
     opacity: 1;
     padding: 4px;
     margin: 0px;
     background-color: #000000;
     color: #ffffff;
+    font-size: 130%;
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    font-weight: bold;
+}
+
+.portfolio-item caption:hover {
+    opacity: 1;
+    padding: 4px;
+    margin: 0px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 130%;
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    font-weight: bold;
+}
+
+.description {
+    border-bottom: 2px solid #000000;
+}
+
+.details {
+    border-top: 2px solid #000000;
+}
+
+.details a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'IBM Plex Mono', monospace;   
+}
+
+.details a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.portfolio-item tbody tr td div a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.portfolio-item tbody tr td div a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.portfolio-item tbody tr td strong {
+    text-decoration: underline;
 }
