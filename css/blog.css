@@ -4,10 +4,11 @@
 .blog-list {
     display: flex;
     flex-direction: column-reverse;
-    list-style: lower-roman;
+    list-style: none;
     padding: 0px;
     margin-left: 200px;
     margin-right: 200px;
+    line-height: normal;
 }
 
 .blog-item {
