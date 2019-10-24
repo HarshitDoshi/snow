@@ -19,6 +19,20 @@ a minimal personal website design and guide made using purely and only html and 
   - text
   - highlighted text
   - images
+- a gallery of images
+  - image
+  - caption
+- a page for portfolio display or project showcase
+  - project
+    - title
+    - description
+    - links
+      - project homepage
+      - source code
+    - release info
+    - status
+    - license
+- contact info page
 - a search function / bar
 
 ## Current features
