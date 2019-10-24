@@ -1,7 +1,7 @@
 # snow
 a minimal personal website design and guide made using purely and only html and css
 
-## What does a personal webiste need?
+## What does a personal website need?
 
 - a homepage
   - logo
