@@ -8,6 +8,40 @@
     justify-content: space-around;
 }
 
+nav {
+    border-bottom: 2px solid #000000;
+}
+
+.breadcrumbs ol {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.crumb a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+    text-decoration: none;
+}
+
 .post {
     margin-left: 200px;
     margin-right: 200px;
@@ -33,6 +67,12 @@
     font-size: 130%;
     font-family: 'IBM Plex Serif', serif;
     text-align: left;
+}
+
+.post-content:first-of-type::first-letter {
+    font-size: 250%;
+    float: left;
+    font-family: 'IBM Plex Serif', serif;
 }
 
 .post a {
