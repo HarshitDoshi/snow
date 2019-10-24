@@ -1,4 +1,4 @@
-@import 'snow.css';
+@import '/styles/snow.css';
 
 .home {
     display: grid;

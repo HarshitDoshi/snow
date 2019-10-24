@@ -1,5 +1,5 @@
-@import 'snow.css';
-@import 'navbar.css';
+@import '/styles/snow.css';
+@import '/styles/navbar.css';
 
 .portfolio {
     display: grid;
