@@ -35,6 +35,10 @@
     text-align: left;
 }
 
+.post a {
+    text-decoration: underline;
+}
+
 .highlighted {
     color: #000000;
     background: #ffff81;
