@@ -1,7 +1,7 @@
 # snow
 a minimal personal website design and guide made using purely and only html and css
 
-## What does a blog need?
+## What does a personal webiste need?
 
 - a homepage
   - logo
@@ -34,6 +34,8 @@ a minimal personal website design and guide made using purely and only html and 
     - license
 - contact info page
 - a search function / bar
+
+Our personal website design aims to provide an easy to use / re-use template for all of the above mentioned needs with a beautiful, minimal theme. The theme has consistency and readability all around combined with fast performance due to the pure html+css nature of it.
 
 ## Current features
 
