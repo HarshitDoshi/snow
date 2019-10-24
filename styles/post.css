@@ -37,6 +37,13 @@
 
 .post a {
     text-decoration: underline;
+    color: #000000;
+}
+
+.post a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 .highlighted {
