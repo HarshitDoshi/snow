@@ -9,50 +9,45 @@
 
 .gallery-item {
     display: grid;
-    gap: 1px;
     padding: 0px;
     margin: 10px;
     position: relative;
-    width: 50%;
+    width: 400px;
+    height: 200px;
 }
 
 .gallery-image {
     width: 400px;
     height: 200px;
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
     border: 2px solid #000000;
-    gap: 2px;
 }
 
 .image-info {
     background-color: transparent;
-    transition: 1s ease;
     opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -200%;
     text-align: center;
 }
 
 .caption {
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     margin: 0px;
     width: 100%;
     height: 100%;
-    padding: 4px;
+    padding: 0px;
     position: relative;
+    text-align: center;
 }
 
 .gallery-item:hover .gallery-image {
-    filter: blur(1px) grayscale(100%) brightness(0.8);
-    -webkit-filter: blur(1px) grayscale(100%) brightness(0.8);
+    filter: blur(2px) grayscale(100%) brightness(1) opacity(0.2);
+    -webkit-filter: blur(2px) grayscale(100%) brightness(1) opacity(0.2);
 }
 
 .gallery-item:hover .image-info {
