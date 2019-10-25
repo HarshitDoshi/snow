@@ -4,18 +4,19 @@
 .greetings {
     font-family: 'IBM Plex Serif', serif;
     font-size: 200%;
+    text-align: center;
 }
 
 .contact {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     font-family: 'IBM Plex Serif', serif;
-    margin: 10px;
-    padding: 20px;
+    width: auto;
 }
 
-.contact h1 {
+.contact div div p {
     font-size: 150%;
+    font-weight: bold;
 }
 
 .contact dt {
@@ -24,4 +25,15 @@
 
 .contact dd {
     font-family: 'IBM Plex Mono', monospace;
+}
+
+.contact div div {
+    border: 4px solid #000000;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
 }
