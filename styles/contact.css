@@ -1,0 +1,27 @@
+@import 'snow.css';
+@import 'navbar.css';
+
+.greetings {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 200%;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'IBM Plex Serif', serif;
+    margin: 10px;
+    padding: 20px;
+}
+
+.contact h1 {
+    font-size: 150%;
+}
+
+.contact dt {
+    font-weight: bold;
+}
+
+.contact dd {
+    font-family: 'IBM Plex Mono', monospace;
+}
