@@ -14,7 +14,7 @@
     width: auto;
 }
 
-.contact div div p {
+.contact div p {
     font-size: 150%;
     font-weight: bold;
 }
@@ -27,7 +27,7 @@
     font-family: 'IBM Plex Mono', monospace;
 }
 
-.contact div div {
+.contact div {
     border: 4px solid #000000;
     padding-left: 2%;
     padding-right: 2%;
