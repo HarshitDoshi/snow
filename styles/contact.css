@@ -19,6 +19,11 @@
     font-weight: bold;
 }
 
+.contact div p a {
+    color: #000000;
+    text-decoration: none;
+}
+
 .contact dt {
     font-weight: bold;
 }
