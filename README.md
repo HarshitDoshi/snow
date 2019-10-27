@@ -39,7 +39,7 @@ Our personal website design aims to provide an easy to use / re-use template for
 
 ## Current features
 
-* Homepage with a sqaure / circular logo, title and a menu of links
+* Homepage with a square / circular logo, title and a menu of links
 * A blog page with a list of posts
 * A page for a blog post with various text highlighting options
 * A page for a gallery of pictures
