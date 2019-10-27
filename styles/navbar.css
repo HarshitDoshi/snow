@@ -110,3 +110,21 @@ header {
     padding-right: 5px;
     text-decoration: none;
 }
+
+.search-bar {
+    padding-top: 4%;
+}
+
+.search-bar form input {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    width: 70%;
+}
+
+.search-bar form button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    text-align: center;
+}
