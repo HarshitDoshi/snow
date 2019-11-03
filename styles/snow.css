@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Serif&display=swap');
 
 :root {
+    --white: #ffffff;
     --black: #000000;
     --gray: #707070;
 }
